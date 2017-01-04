@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name relay_controller_5x3)(type KiCad)(uri ${KIPRJMOD}/relay_controller_5x3.pretty)(options "")(descr ""))
-  (lib (name footprints)(type KiCad)(uri /home/polidorop/git/kicad/kicad-libraries/footprints.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
 )
