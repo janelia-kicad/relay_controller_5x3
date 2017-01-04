@@ -41,7 +41,7 @@ LabSize=60
 ERC_TestSimilarLabels=1
 [eeschema]
 version=1
-LibDir=/home/polidorop/git/kicad/kicad-libraries
+LibDir=${KILIBS}
 [eeschema/libraries]
 LibName1=power
 LibName2=device
