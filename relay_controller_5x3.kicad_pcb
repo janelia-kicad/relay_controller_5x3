@@ -1,9 +1,9 @@
-(kicad_pcb (version 20160815) (host pcbnew no-vcs-found-7475~57~ubuntu16.04.1)
+(kicad_pcb (version 20170123) (host pcbnew no-vcs-found-7560~57~ubuntu16.04.1)
 
   (general
     (links 114)
     (no_connects 114)
-    (area 93.230699 75.196699 211.569301 130.543301)
+    (area 87.439499 70.675499 218.374686 136.334501)
     (thickness 1.6)
     (drawings 56)
     (tracks 0)
@@ -247,10 +247,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F9676)
     (at 121.92 97.79 180)
     (path /587FB4BB)
-    (fp_text reference S1 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S1 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -277,10 +277,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F968A)
     (at 140.97 97.79 180)
     (path /587FBE37)
-    (fp_text reference S2 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S2 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -307,10 +307,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F969E)
     (at 160.02 97.79 180)
     (path /587FBF2F)
-    (fp_text reference S3 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S3 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -337,10 +337,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F96B2)
     (at 179.07 97.79 180)
     (path /587FC553)
-    (fp_text reference S4 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S4 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -367,10 +367,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F96C6)
     (at 121.92 120.65 180)
     (path /587FC6BD)
-    (fp_text reference S5 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S5 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -397,10 +397,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F96DA)
     (at 140.97 120.65 180)
     (path /587FC791)
-    (fp_text reference S6 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S6 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -427,10 +427,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F96EE)
     (at 160.02 120.65 180)
     (path /587FC944)
-    (fp_text reference S7 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S7 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -457,10 +457,10 @@
   (module relay_controller_5x3:Header_2_Pin_SMD_SHR (layer F.Cu) (tedit 587FA97C) (tstamp 587F9702)
     (at 179.07 120.65 180)
     (path /587FCBB8)
-    (fp_text reference S8 (at -5 -3.5 360) (layer F.SilkS)
+    (fp_text reference S8 (at -5 -3.5) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5 360) (layer F.SilkS) hide
+    (fp_text value HEADER_01X02_SMD_SHR (at 5 -3.5) (layer F.SilkS) hide
       (effects (font (thickness 0.3048)))
     )
     (fp_line (start 2.54 -3.81) (end 3.81 -3.81) (layer F.SilkS) (width 0.381))
@@ -1945,7 +1945,7 @@
   (gr_text https://github.com/janelia-modular-devices (at 188.595 102.87 90) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.1905)))
   )
-  (gr_text "Janelia Modular Device\nrelay_controller\npart_number: 1190\n01/2017 ver 1.2\n5x3" (at 93.98 125.73) (layer F.SilkS)
+  (gr_text "Janelia Modular Device\nrelay_controller\npart_number: 1190\n02/2017 ver 1.2\n5x3" (at 93.98 125.73) (layer F.SilkS)
     (effects (font (size 1.016 1.016) (thickness 0.254)) (justify left))
   )
 
