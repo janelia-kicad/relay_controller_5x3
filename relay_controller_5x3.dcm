@@ -4,12 +4,4 @@ $CMP HEADER_01X02_SMD_RA
 D Connector 01x02
 $ENDCMP
 #
-$CMP KT_SWITCH
-K switch
-$ENDCMP
-#
-$CMP SPST_SERIES_M
-K switch
-$ENDCMP
-#
 #End Doc Library
