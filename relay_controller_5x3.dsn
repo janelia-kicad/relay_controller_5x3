@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "no-vcs-found-7560~57~ubuntu16.04.1")
+    (host_version "no-vcs-found-7571~57~ubuntu16.04.1")
   )
   (resolution um 10)
   (unit um)
@@ -33,6 +33,29 @@
     )
   )
   (placement
+    (component "relay_controller_5x3:6-SMD-GW-0.3IN"
+      (place U1 121920 -96520 back 270 (PN SSR))
+      (place U2 140970 -96520 back 270 (PN SSR))
+      (place U3 160020 -96520 back 270 (PN SSR))
+      (place U4 179070 -96520 back 270 (PN SSR))
+      (place U5 121920 -119380 back 270 (PN SSR))
+      (place U6 140970 -119380 back 270 (PN SSR))
+      (place U7 160020 -119380 back 270 (PN SSR))
+      (place U8 179070 -119380 back 270 (PN SSR))
+    )
+    (component relay_controller_5x3:ARDUINO_MEGA_SHIELD
+      (place ARDUINO1 97790 -129540 front 0 (PN ARDUINO_MEGA))
+    )
+    (component relay_controller_5x3:TERM_BLK_HDR_2POS_VERT_0.2IN
+      (place T1 121920 -86995 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T2 140970 -86995 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T3 160020 -86995 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T4 179070 -86995 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T5 121920 -109855 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T6 140970 -109855 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T7 160020 -109855 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+      (place T8 179070 -109855 front 180 (PN TERM_BLK_HDR_2POS_VERT_0.2IN))
+    )
     (component relay_controller_5x3:Header_2_Pin_SMD_SHR
       (place S1 121920 -97790 front 180 (PN HEADER_01X02_SMD_SHR))
       (place S2 140970 -97790 front 180 (PN HEADER_01X02_SMD_SHR))
@@ -43,16 +66,6 @@
       (place S7 160020 -120650 front 180 (PN HEADER_01X02_SMD_SHR))
       (place S8 179070 -120650 front 180 (PN HEADER_01X02_SMD_SHR))
     )
-    (component relay_controller_5x3:TERM_BLK_ANG_2_PIN_0.2_PITCH
-      (place T1 121920 -86995 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T2 140970 -86995 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T3 160020 -86995 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T4 179070 -86995 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T5 121920 -109855 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T6 140970 -109855 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T7 160020 -109855 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-      (place T8 179070 -109855 front 0 (PN TERM_BLK_ANG_2_PIN_0.2_PITCH))
-    )
     (component relay_controller_5x3:DC_DC_CONV_R78C
       (place REG1 103505 -113030 front 180 (PN CONV_DC_DC_9V_1A))
     )
@@ -61,9 +74,6 @@
     )
     (component relay_controller_5x3:BNC_DOUBLE
       (place P7 99060 -102870 front 90 (PN BNC_DOUBLE_RA))
-    )
-    (component relay_controller_5x3:ARDUINO_MEGA_SHIELD
-      (place ARDUINO1 97790 -129540 front 0 (PN ARDUINO_MEGA))
     )
     (component relay_controller_5x3:SPST_SLIDE_AS
       (place SW1 201295 -93980 front 90 (PN SPST_SLIDE_AS))
@@ -78,25 +88,25 @@
       (place P6 203835 -127635 front 180 (PN HEADER_01X02_SMD_RA))
     )
     (component "relay_controller_5x3:LED_555-3XXX"
-      (place L9 172720 -112395 front 180 (PN LED_5V_GRN))
-      (place L8 153670 -112395 front 180 (PN LED_5V_GRN))
-      (place L7 134620 -112395 front 180 (PN LED_5V_GRN))
-      (place L6 115570 -112395 front 180 (PN LED_5V_GRN))
-      (place L5 172720 -89535 front 180 (PN LED_5V_GRN))
-      (place L4 153670 -89535 front 180 (PN LED_5V_GRN))
-      (place L3 134620 -89535 front 180 (PN LED_5V_GRN))
-      (place L2 115570 -89535 front 180 (PN LED_5V_GRN))
+      (place L9 171450 -120650 front 0 (PN LED_5V_GRN))
+      (place L8 152400 -121285 front 0 (PN LED_5V_GRN))
+      (place L7 133350 -120650 front 0 (PN LED_5V_GRN))
+      (place L6 114300 -120650 front 0 (PN LED_5V_GRN))
+      (place L5 171450 -97790 front 0 (PN LED_5V_GRN))
+      (place L4 152400 -97790 front 0 (PN LED_5V_GRN))
+      (place L3 133350 -97790 front 0 (PN LED_5V_GRN))
+      (place L2 114300 -97790 front 0 (PN LED_5V_GRN))
       (place L1 200025 -109220 front 90 (PN LED_24V))
     )
     (component relay_controller_5x3:SM1210
-      (place R8 172720 -119380 back 270 (PN 200))
-      (place R7 153670 -119380 back 270 (PN 200))
-      (place R6 134620 -119380 back 270 (PN 200))
-      (place R5 115570 -119380 back 270 (PN 200))
-      (place R4 172720 -96520 back 270 (PN 200))
-      (place R3 153670 -96520 back 270 (PN 200))
-      (place R2 134620 -96520 back 270 (PN 200))
-      (place R1 115570 -96520 back 270 (PN 200))
+      (place R8 186055 -119380 back 270 (PN 200))
+      (place R7 167005 -119380 back 270 (PN 200))
+      (place R6 147955 -119380 back 270 (PN 200))
+      (place R5 128905 -119380 back 270 (PN 200))
+      (place R4 186055 -96520 back 270 (PN 200))
+      (place R3 167005 -96520 back 270 (PN 200))
+      (place R2 147955 -96520 back 270 (PN 200))
+      (place R1 128905 -96520 back 270 (PN 200))
       (place C3 102235 -117475 back 180 (PN 10uF))
       (place C2 104775 -108585 back 0 (PN 10uF))
       (place C1 201295 -98425 back 180 (PN 10uF))
@@ -104,85 +114,24 @@
     (component relay_controller_5x3:CFP15
       (place D1 201930 -113665 front 90 (PN diode_schottky_45V_10A))
     )
-    (component "relay_controller_5x3:6-SMD-GW-0.3IN"
-      (place U1 121920 -96520 back 270 (PN SSR_DC_6PIN_2.5A))
-      (place U3 160020 -96520 back 270 (PN SSR_DC_6PIN_2.5A))
-      (place U5 121920 -119380 back 270 (PN SSR_DC_6PIN_2.5A))
-      (place U7 160020 -119380 back 270 (PN SSR_DC_6PIN_2.5A))
-    )
-    (component "relay_controller_5x3:6-SMD-GW-0.3IN::1"
-      (place U2 140970 -96520 back 270 (PN SSR_DC_6PIN_2.5A))
-      (place U4 179070 -96520 back 270 (PN SSR_DC_6PIN_2.5A))
-      (place U6 140970 -119380 back 270 (PN SSR_DC_6PIN_2.5A))
-      (place U8 179070 -119380 back 270 (PN SSR_DC_6PIN_2.5A))
-    )
   )
   (library
-    (image relay_controller_5x3:Header_2_Pin_SMD_SHR
-      (outline (path signal 381  2540 3810  3810 3810))
-      (outline (path signal 381  3810 3810  3810 2540))
-      (outline (path signal 381  -3810 2540  -3810 3810))
-      (outline (path signal 381  -3810 3810  -2540 3810))
-      (outline (path signal 381  0 2540  3810 2540))
-      (outline (path signal 381  3810 2540  3810 -2540))
-      (outline (path signal 381  3810 -2540  2540 -2540))
-      (outline (path signal 381  -3810 2540  -3810 -2540))
-      (outline (path signal 381  -3810 2540  -2540 2540))
-      (outline (path signal 381  -3810 -2540  0 -2540))
-      (outline (path signal 381  1905 3810  635 3810))
-      (outline (path signal 381  1270 2540  1905 3810))
-      (outline (path signal 381  635 3810  1270 2540))
-      (pin Rect[T]Pad_1397x2260.6_um 1 1270 -2870.2)
-      (pin Rect[T]Pad_1397x2260.6_um 2 -1270 2870.2)
-      (pin Round[A]Pad_1778_um @1 2794 0)
-      (pin Round[A]Pad_1778_um @2 -2794 0)
-    )
-    (image relay_controller_5x3:TERM_BLK_ANG_2_PIN_0.2_PITCH
-      (outline (path signal 381  -5080 6350  -5080 -6350))
-      (outline (path signal 381  -5080 -6350  5080 -6350))
-      (outline (path signal 381  5080 6350  5080 -6350))
-      (outline (path signal 381  -5080 6350  5080 6350))
-      (pin Oval[A]Pad_2540x3810_um 2 2540 0)
-      (pin Rect[A]Pad_2540x3810_um 1 -2540 0)
-    )
-    (image relay_controller_5x3:DC_DC_CONV_R78C
-      (outline (path signal 381  5715 -1905  5715 6350))
-      (outline (path signal 381  5715 6350  -5715 6350))
-      (outline (path signal 381  -5715 6350  -5715 -1905))
-      (outline (path signal 381  -5715 -1905  5715 -1905))
-      (pin Oval[A]Pad_1524x2540_um 2 0 0)
-      (pin Oval[A]Pad_1524x2540_um 3 2540 0)
-      (pin Oval[A]Pad_1524x2540_um 1 -2540 0)
-    )
-    (image relay_controller_5x3:DCJACK_2PIN_HIGHCURRENT
-      (outline (path signal 381  -5080 -13335  5080 -13335))
-      (outline (path signal 381  5080 -13335  5080 0))
-      (outline (path signal 381  -5080 -13335  -5080 0))
-      (outline (path signal 381  -5080 0  5080 0))
-      (pin Round[A]Pad_1930.4_um @1 0 -2997.2)
-      (pin "Oval[A][0,-508]Pad_3556x4572_um" 2 0 -5994.4)
-      (pin Oval[A]Pad_5080x4064_um 1 0 -11988.8)
-      (pin Oval[A]Pad_3556x5080_um @2 -4495.8 -5003.8)
-      (pin Oval[A]Pad_3556x5080_um @3 4495.8 -5003.8)
-    )
-    (image relay_controller_5x3:BNC_DOUBLE
-      (outline (path signal 381  2540 -6350  3302 -5588))
-      (outline (path signal 381  -1270 -7620  -2286 -6096))
-      (outline (path signal 381  -6350 5715  -6350 6350))
-      (outline (path signal 381  -6350 6350  6350 6350))
-      (outline (path signal 381  6350 6350  6350 5715))
-      (outline (path signal 381  -7620 5715  -7620 -10160))
-      (outline (path signal 381  -7620 -10160  7620 -10160))
-      (outline (path signal 381  7620 -10160  7620 5715))
-      (outline (path signal 381  7620 5715  -7620 5715))
-      (outline (path signal 381  4318 -8255  508 -4445))
-      (outline (path signal 381  0 -7620  -2540 -7620))
-      (pin Oval[A]Pad_3048x5080_um @1 -5080 0)
-      (pin Oval[A]Pad_3048x5080_um @2 5080 0)
-      (pin Oval[A][0,254]Pad_1524x2032_um 1 0 -6350)
-      (pin Oval[A]Pad_2032x1524_um 3 0 -8890)
-      (pin Oval[A][254,0]Pad_2032x1524_um 2 2540 -8890)
-      (pin "Oval[A][-254,0]Pad_2032x1524_um" 4 -2540 -8890)
+    (image "relay_controller_5x3:6-SMD-GW-0.3IN"
+      (outline (path signal 381  2794 4572  -2794 4572))
+      (outline (path signal 381  2794 -4572  2794 4572))
+      (outline (path signal 381  -2794 -4572  2794 -4572))
+      (outline (path signal 381  -2794 4572  -2794 -4572))
+      (outline (path signal 381  -4016 4540  -4040.86 4383.02  -4113.02 4241.4  -4225.4 4129.02
+            -4367.02 4056.86  -4524 4032  -4680.98 4056.86  -4822.6 4129.02
+            -4934.98 4241.4  -5007.14 4383.02  -5032 4540  -5007.14 4696.98
+            -4934.98 4838.6  -4822.6 4950.98  -4680.98 5023.14  -4524 5048
+            -4367.02 5023.14  -4225.4 4950.98  -4113.02 4838.6  -4040.86 4696.98))
+      (pin Rect[T]Pad_2032x1270_um 6 4445 2540)
+      (pin Rect[T]Pad_2032x1270_um 5 4445 0)
+      (pin Rect[T]Pad_2032x1270_um 4 4445 -2540)
+      (pin Rect[T]Pad_2032x1270_um 3 -4445 -2540)
+      (pin Rect[T]Pad_2032x1270_um 2 -4445 0)
+      (pin Rect[T]Pad_2032x1270_um 1 -4445 2540)
     )
     (image relay_controller_5x3:ARDUINO_MEGA_SHIELD
       (outline (path signal 381  67945 7620  67851.8 7031.32  67581.2 6500.27  67159.7 6078.82
@@ -322,6 +271,79 @@
       (pin Oval[A][0,508]Pad_1524x2540_um (rotate 90) GND4 93980 7620)
       (pin "Oval[A][0,-508]Pad_1524x2540_um" (rotate 90) GND5 96520 7620)
     )
+    (image relay_controller_5x3:TERM_BLK_HDR_2POS_VERT_0.2IN
+      (outline (path signal 381  6096 3810  6096 6299.2))
+      (outline (path signal 381  -6096 3810  -6096 6299.2))
+      (outline (path signal 381  -6096 6299.2  6096 6299.2))
+      (outline (path signal 381  -6096 -6299.2  6096 -6299.2))
+      (outline (path signal 381  5080 2540  5080 -3810))
+      (outline (path signal 381  5080 -3810  -5080 -3810))
+      (outline (path signal 381  -5080 -3810  -5080 2540))
+      (outline (path signal 381  -6096 3810  -6096 -4800.6))
+      (outline (path signal 381  6096 -4800.6  -6096 -4800.6))
+      (outline (path signal 381  6096 3810  6096 -4800.6))
+      (outline (path signal 381  6096 3810  -6096 3810))
+      (pin Round[A]Pad_2540_um 1 2540 0)
+      (pin Round[A]Pad_2540_um 2 -2540 0)
+    )
+    (image relay_controller_5x3:Header_2_Pin_SMD_SHR
+      (outline (path signal 381  2540 3810  3810 3810))
+      (outline (path signal 381  3810 3810  3810 2540))
+      (outline (path signal 381  -3810 2540  -3810 3810))
+      (outline (path signal 381  -3810 3810  -2540 3810))
+      (outline (path signal 381  0 2540  3810 2540))
+      (outline (path signal 381  3810 2540  3810 -2540))
+      (outline (path signal 381  3810 -2540  2540 -2540))
+      (outline (path signal 381  -3810 2540  -3810 -2540))
+      (outline (path signal 381  -3810 2540  -2540 2540))
+      (outline (path signal 381  -3810 -2540  0 -2540))
+      (outline (path signal 381  1905 3810  635 3810))
+      (outline (path signal 381  1270 2540  1905 3810))
+      (outline (path signal 381  635 3810  1270 2540))
+      (pin Rect[T]Pad_1397x2260.6_um 1 1270 -2870.2)
+      (pin Rect[T]Pad_1397x2260.6_um 2 -1270 2870.2)
+      (pin Round[A]Pad_1778_um @1 2794 0)
+      (pin Round[A]Pad_1778_um @2 -2794 0)
+    )
+    (image relay_controller_5x3:DC_DC_CONV_R78C
+      (outline (path signal 381  5715 -1905  5715 6350))
+      (outline (path signal 381  5715 6350  -5715 6350))
+      (outline (path signal 381  -5715 6350  -5715 -1905))
+      (outline (path signal 381  -5715 -1905  5715 -1905))
+      (pin Oval[A]Pad_1524x2540_um 2 0 0)
+      (pin Oval[A]Pad_1524x2540_um 3 2540 0)
+      (pin Oval[A]Pad_1524x2540_um 1 -2540 0)
+    )
+    (image relay_controller_5x3:DCJACK_2PIN_HIGHCURRENT
+      (outline (path signal 381  -5080 -13335  5080 -13335))
+      (outline (path signal 381  5080 -13335  5080 0))
+      (outline (path signal 381  -5080 -13335  -5080 0))
+      (outline (path signal 381  -5080 0  5080 0))
+      (pin Round[A]Pad_1930.4_um @1 0 -2997.2)
+      (pin "Oval[A][0,-508]Pad_3556x4572_um" 2 0 -5994.4)
+      (pin Oval[A]Pad_5080x4064_um 1 0 -11988.8)
+      (pin Oval[A]Pad_3556x5080_um @2 -4495.8 -5003.8)
+      (pin Oval[A]Pad_3556x5080_um @3 4495.8 -5003.8)
+    )
+    (image relay_controller_5x3:BNC_DOUBLE
+      (outline (path signal 381  2540 -6350  3302 -5588))
+      (outline (path signal 381  -1270 -7620  -2286 -6096))
+      (outline (path signal 381  -6350 5715  -6350 6350))
+      (outline (path signal 381  -6350 6350  6350 6350))
+      (outline (path signal 381  6350 6350  6350 5715))
+      (outline (path signal 381  -7620 5715  -7620 -10160))
+      (outline (path signal 381  -7620 -10160  7620 -10160))
+      (outline (path signal 381  7620 -10160  7620 5715))
+      (outline (path signal 381  7620 5715  -7620 5715))
+      (outline (path signal 381  4318 -8255  508 -4445))
+      (outline (path signal 381  0 -7620  -2540 -7620))
+      (pin Oval[A]Pad_3048x5080_um @1 -5080 0)
+      (pin Oval[A]Pad_3048x5080_um @2 5080 0)
+      (pin Oval[A][0,254]Pad_1524x2032_um 1 0 -6350)
+      (pin Oval[A]Pad_2032x1524_um 3 0 -8890)
+      (pin Oval[A][254,0]Pad_2032x1524_um 2 2540 -8890)
+      (pin "Oval[A][-254,0]Pad_2032x1524_um" 4 -2540 -8890)
+    )
     (image relay_controller_5x3:SPST_SLIDE_AS
       (outline (path signal 381  -2540 5080  2540 5080))
       (outline (path signal 381  2540 5080  2540 -5080))
@@ -384,40 +406,6 @@
       (pin Rect[T]Pad_1600x1440_um 2 -1065 2780)
       (pin Rect[T]Pad_1600x1440_um 2@1 1065 2780)
     )
-    (image "relay_controller_5x3:6-SMD-GW-0.3IN"
-      (outline (path signal 381  2794 4572  -2794 4572))
-      (outline (path signal 381  2794 -4572  2794 4572))
-      (outline (path signal 381  -2794 -4572  2794 -4572))
-      (outline (path signal 381  -2794 4572  -2794 -4572))
-      (outline (path signal 381  -1016 2540  -1040.86 2383.02  -1113.02 2241.41  -1225.4 2129.02
-            -1367.02 2056.86  -1524 2032  -1680.98 2056.86  -1822.6 2129.02
-            -1934.98 2241.41  -2007.14 2383.02  -2032 2540  -2007.14 2696.98
-            -1934.98 2838.59  -1822.6 2950.98  -1680.98 3023.14  -1524 3048
-            -1367.02 3023.14  -1225.4 2950.98  -1113.02 2838.59  -1040.86 2696.98))
-      (pin Rect[T]Pad_2032x1270_um 6 4445 2540)
-      (pin Rect[T]Pad_2032x1270_um 5 4445 0)
-      (pin Rect[T]Pad_2032x1270_um 4 4445 -2540)
-      (pin Rect[T]Pad_2032x1270_um 3 -4445 -2540)
-      (pin Rect[T]Pad_2032x1270_um 2 -4445 0)
-      (pin Rect[T]Pad_2032x1270_um 1 -4445 2540)
-    )
-    (image "relay_controller_5x3:6-SMD-GW-0.3IN::1"
-      (outline (path signal 381  -1016 2540  -1040.86 2383.02  -1113.02 2241.41  -1225.4 2129.02
-            -1367.02 2056.86  -1524 2032  -1680.98 2056.86  -1822.6 2129.02
-            -1934.98 2241.41  -2007.14 2383.02  -2032 2540  -2007.14 2696.98
-            -1934.98 2838.59  -1822.6 2950.98  -1680.98 3023.14  -1524 3048
-            -1367.02 3023.14  -1225.4 2950.98  -1113.02 2838.59  -1040.86 2696.98))
-      (outline (path signal 381  -2794 4572  -2794 -4572))
-      (outline (path signal 381  -2794 -4572  2794 -4572))
-      (outline (path signal 381  2794 -4572  2794 4572))
-      (outline (path signal 381  2794 4572  -2794 4572))
-      (pin Rect[T]Pad_2032x1270_um 1 -4445 2540)
-      (pin Rect[T]Pad_2032x1270_um 2 -4445 0)
-      (pin Rect[T]Pad_2032x1270_um 3 -4445 -2540)
-      (pin Rect[T]Pad_2032x1270_um 4 4445 -2540)
-      (pin Rect[T]Pad_2032x1270_um 5 4445 0)
-      (pin Rect[T]Pad_2032x1270_um 6 4445 2540)
-    )
     (padstack Round[A]Pad_1397_um
       (shape (circle F.Cu 1397))
       (shape (circle B.Cu 1397))
@@ -431,6 +419,11 @@
     (padstack Round[A]Pad_1930.4_um
       (shape (circle F.Cu 1930.4))
       (shape (circle B.Cu 1930.4))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2540_um
+      (shape (circle F.Cu 2540))
+      (shape (circle B.Cu 2540))
       (attach off)
     )
     (padstack Round[A]Pad_3556_um
@@ -493,11 +486,6 @@
       (shape (path B.Cu 1651  -254 0  254 0))
       (attach off)
     )
-    (padstack Oval[A]Pad_2540x3810_um
-      (shape (path F.Cu 2540  0 -635  0 635))
-      (shape (path B.Cu 2540  0 -635  0 635))
-      (attach off)
-    )
     (padstack Oval[A]Pad_3048x5080_um
       (shape (path F.Cu 3048  0 -1016  0 1016))
       (shape (path B.Cu 3048  0 -1016  0 1016))
@@ -520,11 +508,6 @@
     )
     (padstack Rect[T]Pad_2032x1270_um
       (shape (rect F.Cu -1016 -635 1016 635))
-      (attach off)
-    )
-    (padstack Rect[A]Pad_2540x3810_um
-      (shape (rect F.Cu -1270 -1905 1270 1905))
-      (shape (rect B.Cu -1270 -1905 1270 1905))
       (attach off)
     )
     (padstack Rect[T]Pad_2794x4826_um
@@ -562,21 +545,21 @@
       (pins REG1-1 P1-1 L1-1 C2-1 C1-1 D1-2 D1-2@1)
     )
     (net GND
-      (pins S1-2 S2-2 S3-2 S4-2 S5-2 S6-2 S7-2 S8-2 REG1-2 P1-2 P7-2 P7-4 ARDUINO1-GND1
-        ARDUINO1-GND2 SW1-1 P2-2 P3-2 P4-2 P5-2 P6-1 C3-2 C2-2 C1-2 U1-2 U2-2 U3-2
-        U4-2 U5-2 U6-2 U7-2 U8-2)
+      (pins U1-2 U2-2 U3-2 U4-2 U5-2 U6-2 U7-2 U8-2 ARDUINO1-GND1 ARDUINO1-GND2 S1-2
+        S2-2 S3-2 S4-2 S5-2 S6-2 S7-2 S8-2 REG1-2 P1-2 P7-2 P7-4 SW1-1 P2-2 P3-2 P4-2
+        P5-2 P6-1 C3-2 C2-2 C1-2)
     )
     (net /V_IN
-      (pins REG1-3 ARDUINO1-V_IN C3-1)
+      (pins ARDUINO1-V_IN REG1-3 C3-1)
     )
     (net /TX3
       (pins ARDUINO1-14 P5-3)
     )
     (net /BNC_A
-      (pins P7-1 ARDUINO1-2)
+      (pins ARDUINO1-2 P7-1)
     )
     (net /BNC_B
-      (pins P7-3 ARDUINO1-3)
+      (pins ARDUINO1-3 P7-3)
     )
     (net /RX0
       (pins ARDUINO1-0 P2-1)
@@ -600,108 +583,108 @@
       (pins ARDUINO1-19 P3-1)
     )
     (net /SIGNAL_0
-      (pins S1-1 ARDUINO1-8 L2-1 R1-2)
+      (pins ARDUINO1-8 S1-1 L2-1 R1-2)
     )
     (net /SIGNAL_1
-      (pins S2-1 ARDUINO1-9 L3-1 R2-2)
+      (pins ARDUINO1-9 S2-1 L3-1 R2-2)
     )
     (net /SIGNAL_2
-      (pins S3-1 ARDUINO1-10 L4-1 R3-2)
+      (pins ARDUINO1-10 S3-1 L4-1 R3-2)
     )
     (net /SIGNAL_3
-      (pins S4-1 ARDUINO1-11 L5-1 R4-2)
+      (pins ARDUINO1-11 S4-1 L5-1 R4-2)
     )
     (net /SIGNAL_4
-      (pins S5-1 ARDUINO1-12 L6-1 R5-2)
+      (pins ARDUINO1-12 S5-1 L6-1 R5-2)
     )
     (net /SIGNAL_5
-      (pins S6-1 ARDUINO1-44 L7-1 R6-2)
+      (pins ARDUINO1-44 S6-1 L7-1 R6-2)
     )
     (net /SIGNAL_6
-      (pins S7-1 ARDUINO1-45 L8-1 R7-2)
+      (pins ARDUINO1-45 S7-1 L8-1 R7-2)
     )
     (net /SIGNAL_7
-      (pins S8-1 ARDUINO1-46 L9-1 R8-2)
+      (pins ARDUINO1-46 S8-1 L9-1 R8-2)
     )
     (net "Net-(R3-Pad1)"
-      (pins R3-1 U3-1)
+      (pins U3-1 R3-1)
     )
     (net "Net-(R4-Pad1)"
-      (pins R4-1 U4-1)
+      (pins U4-1 R4-1)
     )
     (net "Net-(R5-Pad1)"
-      (pins R5-1 U5-1)
+      (pins U5-1 R5-1)
     )
     (net "Net-(R6-Pad1)"
-      (pins R6-1 U6-1)
+      (pins U6-1 R6-1)
     )
     (net "Net-(R7-Pad1)"
-      (pins R7-1 U7-1)
+      (pins U7-1 R7-1)
     )
     (net "Net-(R8-Pad1)"
-      (pins R8-1 U8-1)
+      (pins U8-1 R8-1)
     )
     (net /OUT_0+
-      (pins T1-1 U1-6 U1-4)
+      (pins U1-6 U1-4 T1-1)
     )
     (net "/OUT_0-"
-      (pins T1-2 U1-5)
+      (pins U1-5 T1-2)
     )
     (net /OUT_1+
-      (pins T2-1 U2-4 U2-6)
+      (pins U2-6 U2-4 T2-1)
     )
     (net "/OUT_1-"
-      (pins T2-2 U2-5)
+      (pins U2-5 T2-2)
     )
     (net /OUT_2+
-      (pins T3-1 U3-6 U3-4)
+      (pins U3-6 U3-4 T3-1)
     )
     (net "/OUT_2-"
-      (pins T3-2 U3-5)
+      (pins U3-5 T3-2)
     )
     (net /OUT_3+
-      (pins T4-1 U4-4 U4-6)
+      (pins U4-6 U4-4 T4-1)
     )
     (net "/OUT_3-"
-      (pins T4-2 U4-5)
+      (pins U4-5 T4-2)
     )
     (net /OUT_4+
-      (pins T5-1 U5-6 U5-4)
+      (pins U5-6 U5-4 T5-1)
     )
     (net "/OUT_4-"
-      (pins T5-2 U5-5)
+      (pins U5-5 T5-2)
     )
     (net /OUT_5+
-      (pins T6-1 U6-4 U6-6)
+      (pins U6-6 U6-4 T6-1)
     )
     (net "/OUT_5-"
-      (pins T6-2 U6-5)
+      (pins U6-5 T6-2)
     )
     (net /OUT_6+
-      (pins T7-1 U7-6 U7-4)
+      (pins U7-6 U7-4 T7-1)
     )
     (net "/OUT_6-"
-      (pins T7-2 U7-5)
+      (pins U7-5 T7-2)
     )
     (net /OUT_7+
-      (pins T8-1 U8-4 U8-6)
+      (pins U8-6 U8-4 T8-1)
     )
     (net "/OUT_7-"
-      (pins T8-2 U8-5)
+      (pins U8-5 T8-2)
     )
     (net /LED_GND
       (pins SW1-3 L9-2 L8-2 L7-2 L6-2 L5-2 L4-2 L3-2 L2-2 L1-2)
     )
     (net "Net-(R1-Pad1)"
-      (pins R1-1 U1-1)
+      (pins U1-1 R1-1)
     )
     (net "Net-(R2-Pad1)"
-      (pins R2-1 U2-1)
+      (pins U2-1 R2-1)
     )
     (net VCC
       (pins P6-2 D1-1)
     )
-    (class kicad_default ""
+    (class kicad_default
       (circuit
         (use_via Via[0-1]_889:635_um)
       )
@@ -737,9 +720,9 @@
         (clearance 254.1)
       )
     )
-    (class SIGNAL /BNC_A /BNC_B /RX0 /RX1 /RX2 /RX3 /SIGNAL_0 /SIGNAL_1 /SIGNAL_2
-      /SIGNAL_3 /SIGNAL_4 /SIGNAL_5 /SIGNAL_6 /SIGNAL_7 /TX0 /TX1 /TX2 /TX3
-      "Net-(ARDUINO1-Pad13)" "Net-(ARDUINO1-Pad20)" "Net-(ARDUINO1-Pad20B)"
+    (class SIGNAL "" /BNC_A /BNC_B /RX0 /RX1 /RX2 /RX3 /SIGNAL_0 /SIGNAL_1
+      /SIGNAL_2 /SIGNAL_3 /SIGNAL_4 /SIGNAL_5 /SIGNAL_6 /SIGNAL_7 /TX0 /TX1
+      /TX2 /TX3 "Net-(ARDUINO1-Pad13)" "Net-(ARDUINO1-Pad20)" "Net-(ARDUINO1-Pad20B)"
       "Net-(ARDUINO1-Pad21)" "Net-(ARDUINO1-Pad21B)" "Net-(ARDUINO1-Pad22)"
       "Net-(ARDUINO1-Pad23)" "Net-(ARDUINO1-Pad24)" "Net-(ARDUINO1-Pad25)"
       "Net-(ARDUINO1-Pad26)" "Net-(ARDUINO1-Pad27)" "Net-(ARDUINO1-Pad28)"
@@ -785,5 +768,61 @@
     )
   )
   (wiring
+    (wire (path B.Cu 1219.2  119380 -92075  119380 -86995)(net /OUT_0+)(type protect))
+    (wire (path B.Cu 1219.2  119380 -92075  119380 -93345)(net /OUT_0+)(type protect))
+    (wire (path B.Cu 1219.2  124460 -93345  124460 -92075)(net /OUT_0+)(type protect))
+    (wire (path B.Cu 1219.2  123190 -94615  124460 -93345)(net /OUT_0+)(type protect))
+    (wire (path B.Cu 1219.2  120650 -94615  123190 -94615)(net /OUT_0+)(type protect))
+    (wire (path B.Cu 1219.2  119380 -93345  120650 -94615)(net /OUT_0+)(type protect))
+    (wire (path B.Cu 1219.2  121920 -92075  121920 -89535  124460 -86995)(net "/OUT_0-")(type protect))
+    (wire (path B.Cu 1219.2  138430 -92075  138430 -86995)(net /OUT_1+)(type protect))
+    (wire (path B.Cu 1219.2  138430 -92075  138430 -93345)(net /OUT_1+)(type protect))
+    (wire (path B.Cu 1219.2  143510 -93345  143510 -92075)(net /OUT_1+)(type protect))
+    (wire (path B.Cu 1219.2  142240 -94615  143510 -93345)(net /OUT_1+)(type protect))
+    (wire (path B.Cu 1219.2  139700 -94615  142240 -94615)(net /OUT_1+)(type protect))
+    (wire (path B.Cu 1219.2  138430 -93345  139700 -94615)(net /OUT_1+)(type protect))
+    (wire (path B.Cu 1219.2  140970 -92075  140970 -89535  143510 -86995)(net "/OUT_1-")(type protect))
+    (wire (path B.Cu 1219.2  157480 -92075  157480 -86995)(net /OUT_2+)(type protect))
+    (wire (path B.Cu 1219.2  157480 -92075  157480 -93345)(net /OUT_2+)(type protect))
+    (wire (path B.Cu 1219.2  162560 -93345  162560 -92075)(net /OUT_2+)(type protect))
+    (wire (path B.Cu 1219.2  161290 -94615  162560 -93345)(net /OUT_2+)(type protect))
+    (wire (path B.Cu 1219.2  158750 -94615  161290 -94615)(net /OUT_2+)(type protect))
+    (wire (path B.Cu 1219.2  157480 -93345  158750 -94615)(net /OUT_2+)(type protect))
+    (wire (path B.Cu 1219.2  160020 -92075  160020 -89535  162560 -86995)(net "/OUT_2-")(type protect))
+    (wire (path B.Cu 1219.2  176530 -92075  176530 -93345)(net /OUT_3+)(type protect))
+    (wire (path B.Cu 1219.2  181610 -93345  181610 -92075)(net /OUT_3+)(type protect))
+    (wire (path B.Cu 1219.2  180340 -94615  181610 -93345)(net /OUT_3+)(type protect))
+    (wire (path B.Cu 1219.2  177800 -94615  180340 -94615)(net /OUT_3+)(type protect))
+    (wire (path B.Cu 1219.2  176530 -93345  177800 -94615)(net /OUT_3+)(type protect))
+    (wire (path B.Cu 1219.2  176530 -92075  176530 -86995)(net /OUT_3+)(type protect))
+    (wire (path B.Cu 1219.2  179070 -92075  179070 -89535  181610 -86995)(net "/OUT_3-")(type protect))
+    (wire (path B.Cu 1219.2  119380 -114935  119380 -116205)(net /OUT_4+)(type protect))
+    (wire (path B.Cu 1219.2  124460 -116205  124460 -114935)(net /OUT_4+)(type protect))
+    (wire (path B.Cu 1219.2  123190 -117475  124460 -116205)(net /OUT_4+)(type protect))
+    (wire (path B.Cu 1219.2  120650 -117475  123190 -117475)(net /OUT_4+)(type protect))
+    (wire (path B.Cu 1219.2  119380 -116205  120650 -117475)(net /OUT_4+)(type protect))
+    (wire (path B.Cu 1219.2  119380 -114935  119380 -109855)(net /OUT_4+)(type protect))
+    (wire (path B.Cu 1219.2  121920 -114935  121920 -112395  124460 -109855)(net "/OUT_4-")(type protect))
+    (wire (path B.Cu 1219.2  138430 -114935  138430 -116205)(net /OUT_5+)(type protect))
+    (wire (path B.Cu 1219.2  143510 -116205  143510 -114935)(net /OUT_5+)(type protect))
+    (wire (path B.Cu 1219.2  142240 -117475  143510 -116205)(net /OUT_5+)(type protect))
+    (wire (path B.Cu 1219.2  139700 -117475  142240 -117475)(net /OUT_5+)(type protect))
+    (wire (path B.Cu 1219.2  138430 -116205  139700 -117475)(net /OUT_5+)(type protect))
+    (wire (path B.Cu 1219.2  138430 -114935  138430 -109855)(net /OUT_5+)(type protect))
+    (wire (path B.Cu 1219.2  140970 -114935  140970 -112395  143510 -109855)(net "/OUT_5-")(type protect))
+    (wire (path B.Cu 1219.2  157480 -114935  157480 -116205)(net /OUT_6+)(type protect))
+    (wire (path B.Cu 1219.2  162560 -116205  162560 -114935)(net /OUT_6+)(type protect))
+    (wire (path B.Cu 1219.2  161290 -117475  162560 -116205)(net /OUT_6+)(type protect))
+    (wire (path B.Cu 1219.2  158750 -117475  161290 -117475)(net /OUT_6+)(type protect))
+    (wire (path B.Cu 1219.2  157480 -116205  158750 -117475)(net /OUT_6+)(type protect))
+    (wire (path B.Cu 1219.2  157480 -114935  157480 -109855)(net /OUT_6+)(type protect))
+    (wire (path B.Cu 1219.2  160020 -114935  160020 -112395  162560 -109855)(net "/OUT_6-")(type protect))
+    (wire (path B.Cu 1219.2  176530 -114935  176530 -116205)(net /OUT_7+)(type protect))
+    (wire (path B.Cu 1219.2  181610 -116205  181610 -114935)(net /OUT_7+)(type protect))
+    (wire (path B.Cu 1219.2  180340 -117475  181610 -116205)(net /OUT_7+)(type protect))
+    (wire (path B.Cu 1219.2  177800 -117475  180340 -117475)(net /OUT_7+)(type protect))
+    (wire (path B.Cu 1219.2  176530 -116205  177800 -117475)(net /OUT_7+)(type protect))
+    (wire (path B.Cu 1219.2  176530 -114935  176530 -109855)(net /OUT_7+)(type protect))
+    (wire (path B.Cu 1219.2  179070 -114935  179070 -112395  181610 -109855)(net "/OUT_7-")(type protect))
   )
 )

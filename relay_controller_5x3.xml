@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/relay_controller_5x3/relay_controller_5x3.sch</source>
-    <date>Wed 01 Feb 2017 05:11:52 PM EST</date>
-    <tool>Eeschema no-vcs-found-7560~57~ubuntu16.04.1</tool>
+    <date>Thu 02 Feb 2017 10:04:33 AM EST</date>
+    <tool>Eeschema no-vcs-found-7571~57~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>relay_controller_5x3</title>
